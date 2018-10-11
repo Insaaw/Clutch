@@ -146,4 +146,4 @@ bot.on('message', function (message) {
 
 })
 
-bot.login('NDk5ODg3MjAyOTE1MDU3NjY1.DqC1RQ.C5nu-smD-lsqguWaaAlCZHm0_40')
+bot.login('')
