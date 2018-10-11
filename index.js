@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 const Google = require('./commands/google')
-const token = process.env.token
 
 
 
@@ -115,4 +114,4 @@ bot.on('message', function (message) {
 
 })
 
-bot.login(token)
+bot.login(process.env.token)
