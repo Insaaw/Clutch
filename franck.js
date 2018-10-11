@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 const Google = require('./commands/google')
-
+const token = process.env.token
 
 
 
