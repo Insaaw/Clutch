@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-
+const token2 = process.env.token2
  var prefix  = "!"
  bot.on('ready', function() {
     bot.user.setAvatar('./avatar2.jpeg').catch(console.error)
@@ -146,4 +146,4 @@ bot.on('message', function (message) {
 
 })
 
-bot.login('')
+bot.login(token2)
